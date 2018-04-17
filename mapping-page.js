@@ -524,7 +524,8 @@ master.getGridColumnMaster = function (showAll){
                 headerTemplate: '<span title="MAP_VERS">Mapping Version</span>'
             },
             {
-                field: 'MapChangeNote',
+                // field: 'MapChangeNote',
+                field: 'MapNote',
                 width: "200px", 
                 title: 'Mapping Note',
                 headerTemplate: '<span title="MAP_NOTE">Map Note</span>'
@@ -730,7 +731,8 @@ master.getGridColumnMaster = function (showAll){
                 headerTemplate: '<span title="MAP_VERS">Mapping Version</span>'
             },
             {
-                field: 'MapChangeNote',
+                // field: 'MapChangeNote',
+                field: 'MapNote',
                 width: "200px", 
                 title: 'Mapping Note', 
                 headerTemplate: '<span title="MAP_NOTE">Map Note</span>'
